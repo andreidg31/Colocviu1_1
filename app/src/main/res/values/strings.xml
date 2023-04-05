@@ -5,4 +5,6 @@
     <string name="east_btn">East</string>
     <string name="south_btn">South</string>
     <string name="navigate_btn">Navigate to Secondary Activity</string>
+    <string name="register_btn">Register</string>
+    <string name="cancel_btn">Cancel</string>
 </resources>

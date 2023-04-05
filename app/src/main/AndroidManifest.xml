@@ -12,6 +12,17 @@
         android:theme="@style/Theme.Colocviu1_1"
         tools:targetApi="24">
         <activity
+            android:name=".Colocviu1_1SecondaryActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+            <intent-filter>
+                <action android:name="ro.pub.cs.systems.eim.intent.action.Colocviu1_1SecondaryActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
             android:name=".Colocviu1_1MainActivity"
             android:exported="false">
             <meta-data
